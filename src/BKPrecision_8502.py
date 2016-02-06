@@ -41,7 +41,20 @@ THE SOFTWARE.
     Removed windows dependencies and COM interface.
     Removed most of the magic numbers, i.e. hard coded commands
     Fixed a bug in SetTriggerSource command, was sending set address command
+    
+@Description:
 
+    This module contains a class that implements an easy to use interface
+    for remote control of the BK Precision 8502 Electronic Load.
+    
+     
+    
+@Dependenices:
+    PySerial
+
+@Defaults:
+    Baud rate: 4800
+    
 '''
 
 import sys
